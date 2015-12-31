@@ -18,6 +18,6 @@ The starter template is something, which is always the starting point for myself
     • Responsive mixins
 
 ##Browser Support##
-	• All modern browsers
+	• All modern browsers(Google chrome, Firefox, Opera etc)
 	• Internet Explorer 7+
 
