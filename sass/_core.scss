@@ -1,0 +1,31 @@
+
+.container{
+    width: 1190px;
+    margin: 0 auto ;
+@include breakpoint(desktop) {
+        width: 960px;
+    }
+    @include breakpoint(tablet) {
+        width: 97%;
+    }
+    @include breakpoint(mobile) {
+        width: 95%;
+    }
+}
+
+}
+
+/* animation transition*/
+a{
+    -o-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    outline: 0;
+}
+
+/*Selection*/
+
+::-moz-selection { background: black; color: #fff; }
+::selection { background: black; color: #fff }
