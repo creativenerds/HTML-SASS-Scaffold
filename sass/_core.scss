@@ -2,7 +2,7 @@
 .container{
     width: 1190px;
     margin: 0 auto ;
-@include breakpoint(desktop) {
+    @include breakpoint(desktop) {
         width: 960px;
     }
     @include breakpoint(tablet) {

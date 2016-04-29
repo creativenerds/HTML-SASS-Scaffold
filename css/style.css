@@ -96,6 +96,54 @@ table {
 /*===============================================================
 5.0 CORE
 ================================================================*/
+/* line 2, ../sass/_core.scss */
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 2, ../sass/_core.scss */
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 2, ../sass/_core.scss */
+  .container {
+    width: 97%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 2, ../sass/_core.scss */
+  .container {
+    width: 95%;
+  }
+}
+
+/* animation transition*/
+/* line 18, ../sass/_core.scss */
+a {
+  -o-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  outline: 0;
+}
+
+/*Selection*/
+/* line 29, ../sass/_core.scss */
+::-moz-selection {
+  background: black;
+  color: #fff;
+}
+
+/* line 30, ../sass/_core.scss */
+::selection {
+  background: black;
+  color: #fff;
+}
+
 /*===============================================================
 6.0 HEADER
 ================================================================*/
