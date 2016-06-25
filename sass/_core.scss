@@ -28,3 +28,21 @@ a{
 
 ::-moz-selection { background: black; color: #fff; }
 ::selection { background: black; color: #fff }
+
+/*Clearfix*/
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+

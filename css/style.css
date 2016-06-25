@@ -144,6 +144,26 @@ a {
   color: #fff;
 }
 
+/*Clearfix*/
+/* line 33, ../sass/_core.scss */
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 41, ../sass/_core.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 45, ../sass/_core.scss */
+.clearfix {
+  zoom: 1;
+}
+
 /*===============================================================
 6.0 HEADER
 ================================================================*/
