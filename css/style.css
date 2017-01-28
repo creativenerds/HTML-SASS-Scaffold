@@ -1,10 +1,9 @@
 /*
 Project Name:
 Project URI:
-Author:
-Author URI:
+Author: Timothy Blake
+Author URI: http://timothyblake.com/
 Version:
-License: GNU General Public License v2 or later
 Text Domain:
 Tags:
 */
@@ -96,32 +95,37 @@ table {
 /*===============================================================
 5.0 CORE
 ================================================================*/
-/* line 2, ../sass/_core.scss */
+/* line 1, ../sass/_core.scss */
+body {
+  background: #fff;
+}
+
+/* line 5, ../sass/_core.scss */
 .container {
   width: 1190px;
   margin: 0 auto;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 2, ../sass/_core.scss */
+  /* line 5, ../sass/_core.scss */
   .container {
     width: 960px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 2, ../sass/_core.scss */
+  /* line 5, ../sass/_core.scss */
   .container {
     width: 97%;
   }
 }
 @media (max-width: 767px) {
-  /* line 2, ../sass/_core.scss */
+  /* line 5, ../sass/_core.scss */
   .container {
     width: 95%;
   }
 }
 
 /* animation transition*/
-/* line 18, ../sass/_core.scss */
+/* line 21, ../sass/_core.scss */
 a {
   -o-transition: 0.7s;
   -ms-transition: 0.7s;
@@ -132,20 +136,20 @@ a {
 }
 
 /*Selection*/
-/* line 29, ../sass/_core.scss */
+/* line 32, ../sass/_core.scss */
 ::-moz-selection {
   background: black;
   color: #fff;
 }
 
-/* line 30, ../sass/_core.scss */
+/* line 33, ../sass/_core.scss */
 ::selection {
   background: black;
   color: #fff;
 }
 
 /*Clearfix*/
-/* line 33, ../sass/_core.scss */
+/* line 36, ../sass/_core.scss */
 .clearfix:before,
 .clearfix:after {
   content: ".";
@@ -154,14 +158,25 @@ a {
   overflow: hidden;
 }
 
-/* line 41, ../sass/_core.scss */
+/* line 44, ../sass/_core.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 45, ../sass/_core.scss */
+/* line 48, ../sass/_core.scss */
 .clearfix {
   zoom: 1;
+}
+
+/* Typography*/
+/* line 54, ../sass/_core.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "Lato", sans-serif;
+}
+
+/* line 55, ../sass/_core.scss */
+p, li {
+  font-family: "Lato", sans-serif;
 }
 
 /*===============================================================
