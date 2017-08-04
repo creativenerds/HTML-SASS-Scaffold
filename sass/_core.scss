@@ -1,0 +1,66 @@
+body {
+    background: $bg-color;
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    @include breakpoint(desktop) {
+        width: 960px;
+    }
+    @include breakpoint(tablet) {
+        width: 97%;
+    }
+    @include breakpoint(mobile) {
+        width: 95%;
+    }
+}
+
+/* animation transition*/
+a {
+    -o-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    outline: 0;
+}
+
+
+/*Selection*/
+::-moz-selection {
+    background: black;
+    color: #fff;
+}
+
+::selection {
+    background: black;
+    color: #fff
+}
+
+/*Clearfix*/
+.clearfix:before,
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/* Typography*/
+
+h1, h2, h3, h4,h5 {
+    font-family: $title-font;
+}
+
+p, li{
+    font-family: $main-font;
+}
