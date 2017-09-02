@@ -8,7 +8,10 @@ $regular: 400;
 $bold: 600;
 
 //Colors
-$primary-color: red;
+$main-color: #6dcff6;
+$darker-color: darken($main-color, 20%);
+$lighter-color: lighten($main-color, 20%);
+
 $secondary-color:#af0000;
 $text-color:#000;
 $bg-color:#fff;

@@ -1,3 +1,5 @@
+
+//MEDIA QUERIE BREAK POINTS
 @mixin breakpoint($point) {
   @if $point == large-desktop {
     @media (min-width: 1200px) { @content; }
@@ -12,3 +14,18 @@
     @media (max-width: 767px)  { @content; }
   }
 }
+
+//Pixels to rem
+$baseFontSize : 14;
+@function rem($pixels, $context: $baseFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
